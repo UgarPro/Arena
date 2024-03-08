@@ -109,6 +109,3 @@ def complete_character(characters):
         )[randint(1, PACKS_OF_ITEMS_QUANTITY - 1)]
         character.set_things(*pack)
     return character
-
-
-# print(complete_character(characters(1)))
